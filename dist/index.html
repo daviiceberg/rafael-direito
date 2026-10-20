@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#141412">
+  <meta name="description" content="Rafael Direito. Piano, voz e presença. Conheça os shows e assista às apresentações ao vivo.">
+  <title>Rafael Direito — Palco</title>
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="stylesheet" href="shared.css">
+  <link rel="stylesheet" href="palco.css">
+  <script src="shared.js" defer></script>
+</head>
+<body class="palco">
+  <a class="skip" href="#shows">Ir para os shows</a>
+  <header class="masthead">
+    <a class="signature" href="index.html" aria-label="Rafael Direito, início">rd<span>✳</span></a>
+    <span class="masthead-note">CANTOR. PIANISTA. PERFORMER.</span>
+    <nav aria-label="Principal"><a class="nav-shows" href="#shows">Os shows</a><a class="booking-link" href="#contato">Vamos fazer acontecer <span aria-hidden="true">↗</span></a></nav>
+  </header>
+  <main>
+    <section class="stage-hero" aria-labelledby="artist-name">
+      <div class="hero-image"><img src="assets/stage.webp" alt="Rafael Direito de óculos vermelhos, cantando e tocando teclado." fetchpriority="high" width="1100" height="1371"></div>
+      <div class="hero-kicker"><span class="live-dot"></span> A VIDA PEDE MÚSICA AO VIVO.</div>
+      <h1 id="artist-name"><span>RAFAEL</span><span>DIREITO<span class="period">.</span></span></h1>
+      <div class="hero-bottom">
+        <p>Do primeiro acorde<br>ao último bis.</p>
+        <a class="scroll-link" href="#shows"><span>ENCONTRE O SEU SHOW</span><span class="down-arrow" aria-hidden="true">↓</span></a>
+      </div>
+      <button class="hero-play" data-film="hits"><span class="play-disc"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 11 7-11 7Z"/></svg></span><span>UM POUCO DO QUE<br>ACONTECE AO VIVO <span aria-hidden="true">↗</span></span></button>
+      <span class="hero-side-note">MÚSICA QUE ACONTECE ENTRE A GENTE.</span>
+    </section>
+
+    <section class="opening" aria-labelledby="opening-title">
+      <div class="section-index reveal"><span>01 — O ENCONTRO</span><span>PIANO / VOZ / PRESENÇA</span></div>
+      <div class="opening-grid">
+        <h2 id="opening-title" class="reveal">TEM COISA<br>QUE SÓ O <em>AO VIVO</em><br>FAZ SENTIR.</h2>
+        <div class="opening-copy reveal"><span class="asterisk" aria-hidden="true">✳</span><p>Uma voz, muitas possibilidades. A delicadeza de um piano. Um refrão cantado por todo mundo. A energia de um palco inteiro.</p><p>Rafael Direito leva sua interpretação a encontros intimistas, celebrações e grandes shows. Cada formato, um jeito de estar junto.</p></div>
+      </div>
+    </section>
+
+    <section class="showcase" id="shows" aria-labelledby="shows-title">
+      <div class="showcase-heading reveal"><div><p class="eyebrow">02 — ESCOLHA O CLIMA</p><h2 id="shows-title">QUAL É O SEU<br><span>PRÓXIMO SHOW?</span></h2></div><p>Três caminhos.<br>A mesma presença.</p></div>
+      <div class="show-tabs" role="tablist" aria-label="Formatos de show">
+        <button id="tab-piano" role="tab" aria-selected="true" aria-controls="show-panel" tabindex="0" data-show="piano"><span>01</span> Piano & voz <span class="tab-arrow" aria-hidden="true">↗</span></button>
+        <button id="tab-hits" role="tab" aria-selected="false" aria-controls="show-panel" tabindex="-1" data-show="hits"><span>02</span> Only Hits <span class="tab-arrow" aria-hidden="true">↗</span></button>
+        <button id="tab-elton" role="tab" aria-selected="false" aria-controls="show-panel" tabindex="-1" data-show="elton"><span>03</span> Elton John <span class="tab-arrow" aria-hidden="true">↗</span></button>
+      </div>
+      <div class="show-panel" id="show-panel" role="tabpanel" aria-labelledby="tab-piano" tabindex="0">
+        <button class="show-visual" data-film="piano" aria-label="Assistir à apresentação de Piano & voz"><img id="show-image" src="assets/piano.webp" alt="Rafael ao piano em uma apresentação intimista, em preto e branco." loading="lazy" width="1024" height="683"><span class="visual-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 11 7-11 7Z"/></svg></span><span class="visual-caption">ASSISTA AO VIVO <span aria-hidden="true">↗</span></span></button>
+        <div class="show-info"><div class="show-info-top"><span id="show-mood">MAIS PERTO. MAIS PRESENTE.</span><span id="show-number">01 / 03</span></div><h3 id="show-name">Piano<br>& voz.</h3><p id="show-description">A voz em primeiro plano. O piano dando o tom. Um encontro intimista, com espaço para ouvir, sentir e ficar um pouco mais.</p><p class="show-context" id="show-context">RECEPÇÕES · ENCONTROS · CELEBRAÇÕES</p><button class="text-link" id="show-watch" data-film="piano">Ouça essa experiência <span aria-hidden="true">↗</span></button></div>
+      </div>
+    </section>
+
+    <section class="interlude" aria-label="Presença no palco">
+      <div class="interlude-photo"><img src="assets/portrait.webp" alt="Rafael Direito sorrindo com uma keytar e as mãos abertas." loading="lazy" width="854" height="1280"></div>
+      <div class="interlude-copy reveal"><p class="eyebrow">EM CENA, POR INTEIRO.</p><h2>UM PIANO.<br>UMA VOZ. <br><span>MUITO<br>RAFAEL.</span></h2><p>A personalidade também faz parte do repertório.</p></div>
+      <span class="interlude-star" aria-hidden="true">✳</span>
+    </section>
+
+    <section class="closing" id="contato" aria-labelledby="contact-title"><p class="eyebrow reveal">O PRÓXIMO ENCONTRO PODE SER O SEU.</p><a class="contact-large reveal" href="https://api.whatsapp.com/send?phone=5521995366246&text=Ol%C3%A1!%20Vim%20pelo%20site%20do%20Rafael%20Direito%20e%20gostaria%20de%20conversar%20sobre%20um%20evento." target="_blank" rel="noopener noreferrer"><h2 id="contact-title">VAMOS FAZER<br><span>ACONTECER?</span></h2><span class="contact-arrow" aria-hidden="true">↗</span></a><div class="closing-meta"><p>Conte sua ideia à produção.<br>O resto da conversa começa por lá.</p><a class="text-link" href="https://www.instagram.com/rafael_direito/" target="_blank" rel="noopener noreferrer">Instagram <span aria-hidden="true">↗</span></a></div></section>
+  </main>
+  <footer class="site-footer"><a class="signature" href="#">rd<span>✳</span></a><span>RAFAEL DIREITO · MÚSICA AO VIVO</span><span>© <span data-year>2026</span></span></footer>
+  <nav class="direction-switch" aria-label="Comparar propostas visuais"><span class="switch-label">DIREÇÕES</span><a href="index.html" aria-current="page"><span>01</span> Palco</a><a href="sessao.html"><span>02</span> Sessão</a><a class="original-link" href="original.html" target="_blank" rel="noopener">Original ↗</a></nav>
+  <dialog class="film-dialog" aria-labelledby="film-title"><div class="film-heading"><div><p>RAFAEL DIREITO — AO VIVO</p><h2 id="film-title">Piano & voz</h2></div><button class="film-close" aria-label="Fechar vídeo">Fechar <span aria-hidden="true">×</span></button></div><video id="film-player" controls playsinline preload="none"></video><p class="film-status" role="status"></p></dialog>
+</body>
+</html>
